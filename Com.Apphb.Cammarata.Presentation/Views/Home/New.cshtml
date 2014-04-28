@@ -1,0 +1,23 @@
+﻿@model Com.Apphb.Cammarata.EF.Model.User
+
+@{
+	ViewBag.Title = "New";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New</h2>
+<div>
+	@using (Html.BeginForm("Create", "Home", FormMethod.Post)){
+	    <p>
+	        @Html.LabelFor(x => x.Name)
+	        @Html.TextBoxFor(x => x.Name)
+	    </p>
+        <p>
+	        @Html.LabelFor(x => x.EmailAddress)
+	        @Html.TextBoxFor(x => x.EmailAddress)
+	    </p>
+		<p>
+			<input type="submit" value="Submit" />
+		</p>
+	}
+</div>
