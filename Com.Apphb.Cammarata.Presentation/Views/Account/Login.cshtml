@@ -4,39 +4,39 @@
     ViewBag.Title = "Log in";
 }
 
-<hgroup class="title">
-    <h1>@ViewBag.Title.</h1>
-</hgroup>
+@section Css {
+    <link href="@Url.Content("~/Content/signin.css")" rel="stylesheet" type="text/css" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+}
 
-<section id="loginForm">
-    <h2>Use a local account to log in.</h2>
-    @using (Html.BeginForm())
-    {
+<div class="container">
+    @*@using (Html.BeginForm(new { @class = "form-signin" }))
+    {*@
+    <form action="@Url.Action("Login")" class="form-signin" method="post" role="form">
+
         @Html.AntiForgeryToken()
         @Html.ValidationSummary(true)
 
-        <fieldset>
-            <legend>Log in Form</legend>
-            <ol>
-                <li>
-                    @Html.LabelFor(m => m.UserName)
-                    @Html.TextBoxFor(m => m.UserName)
-                    @Html.ValidationMessageFor(m => m.UserName)
-                </li>
-                <li>
-                    @Html.LabelFor(m => m.Password)
-                    @Html.PasswordFor(m => m.Password)
-                    @Html.ValidationMessageFor(m => m.Password)
-                </li>
-                <li>
-                    @Html.CheckBoxFor(m => m.RememberMe)
-                    @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
-                </li>
-            </ol>
-            <input type="submit" value="Log in" />
-        </fieldset>
-    }
-</section>
+        <h2 class="form-signin-heading">Accesso</h2>
+        <input class="form-control" id="UserName" name="UserName" placeholder="Nome utente" type="text" required autofocus/>
+        @Html.ValidationMessageFor(m => m.UserName)
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "password", autofocus = "autofocus", required = "required" })
+        @Html.ValidationMessageFor(m => m.Password)
+        
+        <label class="checkbox">
+            <input name="RememberMe" type="checkbox" value="remember-me" /> Ricordati di me
+        </label>
+
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Accedi</button>
+
+    </form>
+    @*}*@
+</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
