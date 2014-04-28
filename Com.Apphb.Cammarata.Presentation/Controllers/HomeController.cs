@@ -10,6 +10,7 @@ using MongoDB.Driver;
 
 namespace Com.Apphb.Cammarata.Presentation.Controllers
 {
+    [Authorize]
     public class HomeController : BaseController
     {
         //private readonly MongoCollection<Participant> _participantCollection;

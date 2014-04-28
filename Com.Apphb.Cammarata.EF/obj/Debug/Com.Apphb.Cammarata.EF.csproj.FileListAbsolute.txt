@@ -1,0 +1,14 @@
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Com.Apphb.Cammarata.EF.dll.config
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Com.Apphb.Cammarata.EF.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Com.Apphb.Cammarata.EF.pdb
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Breeze.ContextProvider.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Breeze.ContextProvider.EF6.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\EntityFramework.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\EntityFramework.xml
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\obj\Debug\Com.Apphb.Cammarata.EF.csprojResolveAssemblyReference.cache
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\obj\Debug\Com.Apphb.Cammarata.EF.dll
+C:\Users\IT968549\Source\Com.Apphb.Cammarata\Com.Apphb.Cammarata.EF\obj\Debug\Com.Apphb.Cammarata.EF.pdb
